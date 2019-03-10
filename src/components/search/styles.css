@@ -1,0 +1,44 @@
+
+.search {
+    display: flex;
+    background: white;
+    border: none;
+    color: black;
+    box-shadow: 0 8px 6px -7px rgba(0, 0, 0, 0.3);
+    outline: none;
+    border-bottom: solid 1px #DDD;
+}
+
+.search > input[type="search"] {
+    background: transparent;
+    border: none;
+    padding: 0 0.7rem;
+    margin: 0;
+    box-shadow: none;
+    min-width: 1rem;
+    outline: none;
+    line-height: 1.2rem;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    outline-offset: -2px;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+
+}
+
+.search > svg, .search > i {
+    color: #aaa;
+    vertical-align: middle;
+    flex: 0 0 2rem;
+    height: 2.7rem;
+    margin-right: 0.7rem;
+}
+
+.search--label-text {
+    text-transform: capitalize;
+    font-size: 1.8rem;
+}
+
+

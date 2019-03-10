@@ -1,0 +1,34 @@
+.spinner {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: #e1e8f0;
+}
+
+.spinner--centered {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.spinner--bottle-cap {
+    width: 10rem;
+    max-height: 25%;
+    animation: spinner 8s linear infinite;
+}
+
+.spinner--message {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.4rem;
+    color: rgba(50,0,0,0.9);
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(2, 2, 2, 0.3);
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}

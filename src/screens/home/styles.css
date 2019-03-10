@@ -1,0 +1,48 @@
+.home--row {
+    min-width: 10rem;
+    min-height: 8rem;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 0.2rem;
+    margin: 0.5rem;
+    border: solid 1px #CCC;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 7px 6px -8px rgba(0, 0, 0, 0.8);
+}
+
+
+.home--row:hover .home--row-wrapper {
+    background-color: #AAA;
+}
+
+.home--row-wrapper {
+    background-color: #888;
+    display: block;
+    padding: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.5s;
+    min-height: 7.8rem;
+}
+
+.home--row > span > span {
+    display: block;
+    color: #FEFEFE;
+    text-shadow: 0 1px 0px rgba(100, 0, 0, 0.3)
+}
+
+.home--beer-label img {
+    max-height: 3rem;
+    max-width: 100%;
+}
+
+.home--beer-name {
+    margin: 0.3rem 0;
+    font-size: 1.4rem;
+}
+
+.home--beer-detail > span {
+    color: #EEE;
+
+}

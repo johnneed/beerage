@@ -1,0 +1,91 @@
+
+.page {
+    width: 100vw;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.page--rows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.page--row{width: 100%}
+
+.page--row:first-child {
+    border-top: none;
+}
+
+.page--row:last-child {
+    border-bottom: none
+}
+
+.page--header-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.page--header .search {
+    margin-bottom: 0;
+}
+
+.page--rows {
+    flex: 1 1 auto;
+    overflow: auto;
+    padding: 0.5rem;
+}
+
+.page--fly-out {
+    position: fixed;
+    left: 101vw;
+    top: var(--header-height);
+    height: calc(100vh - var(--header-height));
+    width: 100vw;
+    overflow: hidden;
+    transition: left 1s;
+    background: blue;
+    z-index: 50;
+}
+
+.page--detail {
+    background: rgba(255, 255, 255, 0.95);
+    position: fixed;
+    top: 120vh;
+    left: 0;
+    z-index: 1001;
+    height: 100vh;
+    width: 100vw;
+    transition: top 0.5s;
+}
+
+.page--detail-header {
+    height: 2rem;
+}
+
+.page--detail.is-visible {
+    top: 0;
+}
+
+.page--scroll-area {
+    height: calc(100vh - 2rem);
+    overflow: auto;
+}
+
+.page--close-detail {
+    border: 0;
+    font-size: 1.6rem;
+}
+
+/* tablet */
+@media screen and (min-width: 600px) {
+    .page--row{width: auto}
+}
+
+/* desktop */
+@media screen and (min-width: 1000px) {
+
+}

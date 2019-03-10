@@ -1,0 +1,40 @@
+:root {
+    --header-height: 5rem;
+    --footer-height: 5rem;
+}
+
+/* Phone styles */
+
+
+.layout--main {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 3rem 0;
+    z-index: 1;
+}
+
+.layout--footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100vw;
+    height: 3rem;
+    z-index: 1000;
+}
+
+ .layout--header{
+     position: fixed;
+     top: 0;
+     left:0;
+     height: 3rem;
+     width: 100vw;
+     z-index: 1000;
+ }
+
+
+/* Tablet styles */
+/* Desktop styles */
+@media screen and (min-width: 1000px) {
+    .layout--main {}
+}
+

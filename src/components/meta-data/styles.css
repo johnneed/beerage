@@ -1,0 +1,34 @@
+.meta-data {
+    display: block;
+    max-width: 100vw;
+}
+
+.meta-data--wrapper {
+    display: flex;
+}
+
+.meta-data--wrapper > div {
+    flex: 1 1 auto;
+    background: #EEE;
+    border: solid 1px #DBDBDB;
+    padding: 0.5rem;
+    margin: 1rem 0.2rem 0 0.2rem;
+}
+
+.meta-data--wrapper > div > span {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.meta-data--wrapper > div > span:first-child {
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+.meta-data--label {
+    font-size: 1rem;
+}
+
+.meta-data--value-breakable {
+    word-break: break-all;
+}
