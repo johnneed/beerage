@@ -23,7 +23,7 @@ Get the app started with this command:
 ### View the webapp in your browser
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
  
-### Run the test
+### Run the tests
 
 `npm test`
 
